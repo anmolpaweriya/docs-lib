@@ -1,7 +1,7 @@
 "use client"
 import { Editor } from '@tinymce/tinymce-react';
 
-export default function (props: {
+export default function RichTextEditor(props: {
     pageData: { current: string }
 }) {
 

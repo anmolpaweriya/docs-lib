@@ -28,7 +28,7 @@ import Loading from '../Loading/Loading';
 
 
 
-export default function (props: {
+export default function RenderPageSection(props: {
     data: string,
     pageId: string,
     isAdmin: boolean
@@ -69,7 +69,7 @@ export default function (props: {
             &&
             <Loading />
         }
-        <div className='w-full h-full overflow-y-scroll pb-20 pt-7 px-3 '>
+        <section className='w-full h-full overflow-y-scroll pb-20 pt-7 px-3 '>
             <div className="pb-20 overflow-y-scroll RenderPageSection  ">
 
                 <div dangerouslySetInnerHTML={{ __html: props.data }} />
@@ -93,6 +93,6 @@ export default function (props: {
                     </div>
                 </>}
 
-        </div>
+        </section>
     </>
 }

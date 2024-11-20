@@ -28,7 +28,7 @@ let langList: {
 
 
 
-export default function () {
+export default function Create() {
 
     const pageData = useRef("Intro")
     const router = useRouter();
