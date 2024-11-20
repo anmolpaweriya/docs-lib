@@ -1,0 +1,173 @@
+.RenderPageSection {
+    margin: 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+
+}
+
+
+
+
+.RenderPageSection body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.RenderPageSection h1,
+.RenderPageSection h2,
+.RenderPageSection h3,
+.RenderPageSection h4,
+.RenderPageSection h5,
+.RenderPageSection h6 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.RenderPageSection h1 {
+    font-size: 2em;
+}
+
+.RenderPageSection h2 {
+    font-size: 1.5em;
+}
+
+.RenderPageSection h3 {
+    font-size: 1.17em;
+}
+
+.RenderPageSection h4 {
+    font-size: 1em;
+}
+
+.RenderPageSection h5 {
+    font-size: 0.83em;
+}
+
+.RenderPageSection h6 {
+    font-size: 0.67em;
+}
+
+.RenderPageSection p {
+    margin-bottom: 15px;
+}
+
+.RenderPageSection a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.RenderPageSection a:hover {
+    text-decoration: underline;
+}
+
+.RenderPageSection ul,
+.RenderPageSection ol {
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+
+.RenderPageSection ul li {
+    margin-bottom: 5px;
+    list-style-type: disc;
+}
+
+.RenderPageSection ol li {
+    margin-bottom: 5px;
+    list-style-type: decimal;
+}
+
+.RenderPageSection table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-style: hidden;
+    /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 1px #ddd;
+    /* this draws the table border  */
+}
+
+.RenderPageSection th,
+.RenderPageSection td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+
+.RenderPageSection img {
+    max-width: 100%;
+    height: auto;
+}
+
+.RenderPageSection input,
+.RenderPageSection textarea,
+.RenderPageSection select {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .RenderPageSection body {
+        font-size: 18px;
+    }
+
+    .RenderPageSection h1 {
+        font-size: 2.5em;
+    }
+
+    .RenderPageSection h2 {
+        font-size: 2em;
+    }
+
+    .RenderPageSection h3 {
+        font-size: 1.5em;
+    }
+
+    .RenderPageSection h4 {
+        font-size: 1.2em;
+    }
+
+    .RenderPageSection h5 {
+        font-size: 1.1em;
+    }
+
+    .RenderPageSection p {
+        margin-bottom: 20px;
+    }
+
+    .RenderPageSection ul,
+    .RenderPageSection ol {
+        margin-bottom: 20px;
+        padding-left: 25px;
+    }
+
+    .RenderPageSection ul li {
+        margin-bottom: 8px;
+    }
+
+    .RenderPageSection ol li {
+        margin-bottom: 8px;
+    }
+
+    .RenderPageSection table {
+        margin-bottom: 20px;
+    }
+
+    .RenderPageSection th,
+    .RenderPageSection td {
+        padding: 12px;
+    }
+
+    .RenderPageSection textarea {
+        font-size: 1.1em;
+        padding: 8px;
+    }
+}

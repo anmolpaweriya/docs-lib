@@ -1,0 +1,92 @@
+{
+    "javascript": {
+        "name": "JavaScript",
+        "type": "language",
+        "image": "/img/javascript.png"
+    },
+    "typescript": {
+        "name": "TypeScript",
+        "type": "language",
+        "image": "/img/typescript.png"
+    },
+    "sql": {
+        "name": "SQL",
+        "type": "language",
+        "image": "/img/sql.png"
+    },
+    "html": {
+        "name": "HTML",
+        "type": "language",
+        "image": "/img/html.png"
+    },
+    "css": {
+        "name": "CSS",
+        "type": "language",
+        "image": "/img/css.png"
+    },
+    "java": {
+        "name": "Java",
+        "type": "language",
+        "image": "/img/java.png"
+    },
+    "c": {
+        "name": "C",
+        "type": "language",
+        "image": "/img/c.png"
+    },
+    "cpp": {
+        "name": "C++",
+        "type": "language",
+        "image": "/img/cpp.png"
+    },
+    "python": {
+        "name": "Python",
+        "type": "language",
+        "image": "/img/python.png"
+    },
+    "php": {
+        "name": "PHP",
+        "type": "language",
+        "image": "/img/php.png"
+    },
+    "fortran": {
+        "name": "Fortran",
+        "type": "language",
+        "image": "/img/fortran.png"
+    },
+    "nextjs": {
+        "name": "Next.js",
+        "type": "framework",
+        "image": "/img/nextjs.png"
+    },
+    "react": {
+        "name": "React",
+        "type": "library",
+        "image": "/img/react.png"
+    },
+    "expressjs": {
+        "name": "Express.js",
+        "type": "library",
+        "image": "/img/expressjs.png"
+    },
+    "mongodb": {
+        "name": "MongoDB",
+        "type": "database",
+        "image": "/img/mongo.png"
+    },
+    "mongoose": {
+        "name": "Mongoose",
+        "type": "library",
+        "image": "/img/mongoose.png"
+    },
+    "prisma": {
+        "name": "Prisma",
+        "type": "library",
+        "image": "/img/prisma.png"
+    },
+    "nginx": {
+        "name": "Nginx",
+        "type": "web Server",
+        "image": "/img/nginx.png"
+    }
+}

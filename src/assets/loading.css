@@ -1,0 +1,50 @@
+   .loadingAnimation {
+       display: flex;
+       gap: 1em;
+   }
+
+
+   .loadingAnimation>.animationSphere {
+       border-radius: 50%;
+       background-color: #009afc;
+       padding: 0.5em;
+
+       animation: sphereAnimate 1s ease-in-out 0.1s infinite;
+   }
+
+   .loadingAnimation>.dot-2 {
+       animation-delay: 0.2s;
+   }
+
+   .loadingAnimation>.dot-3 {
+       animation-delay: 0.3s;
+   }
+
+   .loadingAnimation>.dot-4 {
+       animation-delay: 0.4s;
+   }
+
+   .loadingAnimation>.dot-5 {
+       animation-delay: 0.5s;
+   }
+
+
+
+   .hideLoading {
+       display: none;
+   }
+
+   @keyframes sphereAnimate {
+       0% {
+           transform: translateY(0em);
+       }
+
+       50% {
+           transform: translateY(-1.2em);
+       }
+
+       100% {
+           transform: translateY(0em);
+
+       }
+   }
