@@ -59,6 +59,11 @@
         "type": "framework",
         "image": "/img/nextjs.png"
     },
+    "reactNative": {
+        "name": "React Native",
+        "type": "framework",
+        "image": "/img/react.png"
+    },
     "react": {
         "name": "React",
         "type": "library",
