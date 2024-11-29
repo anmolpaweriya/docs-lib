@@ -68,7 +68,7 @@ export default function Create() {
             return
         }
         const topicName = formData.get('topicName')
-        const pageName = formData.get('pageName')
+        const pageName = `${formData.get('pageName')}`.replaceAll(" ", "-")
         router.replace(`/${topicName}/${pageName}`);
 
     }

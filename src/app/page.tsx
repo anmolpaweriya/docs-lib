@@ -50,7 +50,7 @@ export default function Home() {
               {typeName.charAt(0).toUpperCase() + typeName.slice(1)}
             </h1>
 
-            <div className="grid justify-between	 gap-4 mt-5 px-5"
+            <div className="grid 	 gap-4 mt-5 px-5"
               style={{
                 gridTemplateColumns: "repeat(auto-fit, minmax(90px, 150px))"
               }}>

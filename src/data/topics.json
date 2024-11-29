@@ -64,6 +64,11 @@
         "type": "framework",
         "image": "/img/react.png"
     },
+    "electronjs": {
+        "name": "Electron JS",
+        "type": "framework",
+        "image": "/img/electron.svg"
+    },
     "react": {
         "name": "React",
         "type": "library",
