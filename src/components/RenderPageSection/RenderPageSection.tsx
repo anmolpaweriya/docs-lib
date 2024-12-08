@@ -15,8 +15,22 @@ import { MdDelete } from "react-icons/md";
 
 //css 
 import './RenderPageSection.css'
-import "prismjs/components/prism-typescript";
 import '@/assets/prism.css'; // Import Prism CSS
+// Import specific language components
+import 'prismjs/components/prism-typescript.min.js';
+import 'prismjs/components/prism-sql.min.js';
+import 'prismjs/components/prism-javascript.min.js';
+import 'prismjs/components/prism-mongodb.min.js';
+import 'prismjs/components/prism-css.min.js';
+import 'prismjs/components/prism-markup.min.js';
+import 'prismjs/components/prism-c.min.js';
+import 'prismjs/components/prism-cpp.min.js';
+import 'prismjs/components/prism-python.min.js';
+import 'prismjs/components/prism-java.min.js';
+import 'prismjs/components/prism-fortran.min.js';
+import 'prismjs/components/prism-docker.min.js';
+import 'prismjs/components/prism-json.min.js';
+import 'prismjs/components/prism-bash.min.js';
 
 
 // langs [undefined, 'core', 'prism-okaidia', 'markup', 'css', 'clike', 'javascript', 'apacheconf', 'bash', 'c', 'cpp', 'css-extras', 'django', 'docker', 'fortran', 'linker-script', 'go', 'go-module', 'graphql', 'http', 'hpkp', 'hsts', 'ignore', 'java', 'json', 'json5', 'markup-templating', 'mongodb', 'nginx', 'php', 'plsql', 'powerquery', 'powershell', 'pug', 'python', 'r', 'sql', 'typescript', 'uri', 'toolbar', 'copy-to-clipboard']
