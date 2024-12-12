@@ -2,7 +2,8 @@
 import { Editor } from '@tinymce/tinymce-react';
 
 export default function RichTextEditor(props: {
-    pageData: { current: string }
+    pageData: { current: string },
+    topic: string
 }) {
 
 
@@ -30,7 +31,12 @@ export default function RichTextEditor(props: {
     ]
 
 
-
+    const langIndex: number = codesample_languages.findIndex(val => val.text.toLowerCase() === props.topic.toLowerCase() || val.value.toLowerCase() === props.topic.toLowerCase())
+    if (langIndex != -1) {
+        const lang = codesample_languages[langIndex]
+        codesample_languages.splice(langIndex, 1)
+        codesample_languages.unshift(lang)
+    }
 
     return <Editor
 

@@ -19,7 +19,7 @@ export default function FormComponent(props: {
     const router = useRouter();
 
     const [loadingEnabled, setLoadingEnabled] = useState(false)
-
+    console.log(props.data)
 
 
     async function sendEditRequest(event: { preventDefault: () => void }) {
@@ -94,6 +94,7 @@ export default function FormComponent(props: {
 
                 <RichTextEditor
                     pageData={pageData}
+                    topic={""}
                 />
 
             </div>

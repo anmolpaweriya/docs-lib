@@ -133,6 +133,7 @@ export default function Create() {
                     <h2 className='text-xl max-sm:text-xl'>Page Data</h2>
                     <RichTextEditor
                         pageData={pageData}
+                        topic={searchParams.get('topic') || ""}
                     />
 
                 </div>
