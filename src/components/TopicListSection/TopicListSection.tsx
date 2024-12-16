@@ -23,12 +23,12 @@ export default function TopicListSection(props: TopicListPropType) {
 
 
     return <div
-        className={"h-full  max-sm:fixed w-full  transition-all duration-200 max-sm:grid max-sm:grid-cols-[80%_auto] "
+        className={"h-[90vh]  max-sm:fixed w-full  transition-all duration-200 max-sm:grid max-sm:grid-cols-[80%_auto] "
             +
             (menuOpen ? "left-[0%] " : "left-[-100%] ")
         }>
 
-        <ul className="flex relative flex-col items-center overflow-y-scroll max-sm:bg-[#181818] gap-1  w-full box-border px-2 pt-3 pb-2 h-full bg-red ">
+        <ul className="flex relative flex-col items-center overflow-y-scroll max-sm:bg-[#181818] gap-1 h-full w-full box-border px-2 pt-3 pb-2  bg-red ">
 
 
             {

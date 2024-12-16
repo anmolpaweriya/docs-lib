@@ -100,7 +100,7 @@ export default async function MainDocPage({ params }: { params: { slug: string[]
 
 
     return <>
-        <div className="grid grid-cols-[16em_auto]  max-sm:grid-cols-1 w-full h-full overflow-hidden  box-border lg:px-[10%] gap-3">
+        <div className="grid grid-cols-[16em_auto] items-center  max-sm:grid-cols-1 w-full h-full overflow-hidden  box-border lg:px-[10%] gap-3">
 
 
 
