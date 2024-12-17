@@ -14,15 +14,10 @@
         "type": "language",
         "image": "/img/sql.png"
     },
-    "html": {
-        "name": "HTML",
+    "python": {
+        "name": "Python",
         "type": "language",
-        "image": "/img/html.png"
-    },
-    "css": {
-        "name": "CSS",
-        "type": "language",
-        "image": "/img/css.png"
+        "image": "/img/python.png"
     },
     "java": {
         "name": "Java",
@@ -39,11 +34,6 @@
         "type": "language",
         "image": "/img/cpp.png"
     },
-    "python": {
-        "name": "Python",
-        "type": "language",
-        "image": "/img/python.png"
-    },
     "php": {
         "name": "PHP",
         "type": "language",
@@ -53,6 +43,16 @@
         "name": "Fortran",
         "type": "language",
         "image": "/img/fortran.png"
+    },
+    "html": {
+        "name": "HTML",
+        "type": "language",
+        "image": "/img/html.png"
+    },
+    "css": {
+        "name": "CSS",
+        "type": "language",
+        "image": "/img/css.png"
     },
     "nextjs": {
         "name": "Next.js",
@@ -68,6 +68,11 @@
         "name": "Electron JS",
         "type": "framework",
         "image": "/img/electron.svg"
+    },
+    "django": {
+        "name": "Django",
+        "type": "framework",
+        "image": "/img/django.svg"
     },
     "react": {
         "name": "React",
