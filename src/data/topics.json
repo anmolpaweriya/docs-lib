@@ -99,6 +99,11 @@
         "type": "library",
         "image": "/img/prisma.png"
     },
+    "authjs": {
+        "name": "Auth.js",
+        "type": "library",
+        "image": "/img/authjs.png"
+    },
     "nginx": {
         "name": "Nginx",
         "type": "web Server",
