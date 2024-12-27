@@ -104,6 +104,11 @@
         "type": "library",
         "image": "/img/authjs.png"
     },
+    "webrtc": {
+        "name": "WebRTC",
+        "type": "library",
+        "image": "/img/webrtc.svg"
+    },
     "nginx": {
         "name": "Nginx",
         "type": "web Server",
