@@ -74,6 +74,11 @@
         "type": "framework",
         "image": "/img/django.svg"
     },
+    "nestjs": {
+        "name": "Nestjs",
+        "type": "framework",
+        "image": "/img/nestjs.svg"
+    },
     "react": {
         "name": "React",
         "type": "library",
